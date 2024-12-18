@@ -2,7 +2,7 @@
 Finetune your CLIP(in transformers) on private datasets!
 
 ```python
-python fine_tune_clip.py \
+python train.py \
   --model_name "/path/to/pretrained/clip_model" \
   --save_path "./fine_tuned_model" \
   --train_json "/path/to/train_data.json" \
